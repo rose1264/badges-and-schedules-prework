@@ -23,8 +23,7 @@ end
 def printer(attendees)
   index = 0
   attendees.each do |attendee|
-    puts "batch_badge_creator(attendees)[#{index}]"
-    puts "assign_rooms(attendees)[#{index}]"
-    index += 1
+    puts batch_badge_creator(attendee)
+    puts assign_rooms(attendee)
   end
 end
