@@ -12,7 +12,10 @@ end
 
 def assign_rooms(attendees)
   room_assignments = []
-  for attendee in
+  attendees.each do |attendee|
+
+  end
+  room_assignments
 end
 
 def printer(attendees)
