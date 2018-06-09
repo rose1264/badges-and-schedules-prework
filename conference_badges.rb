@@ -4,14 +4,15 @@ end
 
 def batch_badge_creator(attendees)
   badges = []
-  for attendee in attendees do
+  attendees.each do |attendee|
     badges.push(badge_maker(attendee))
   end
   badges
 end
 
 def assign_rooms(attendees)
-
+  room_assignments = []
+  for attendee in
 end
 
 def printer(attendees)
