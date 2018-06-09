@@ -5,7 +5,7 @@ end
 def batch_badge_creator(attendees)
   badges = []
   for attendee in attendees do
-    badges.push(attendee.badge_maker)
+    badges.push(badge_maker(attenddee))
   end
   badges
 end
